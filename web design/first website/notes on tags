@@ -1,0 +1,47 @@
+<a>:  makes a link for a website
+     
+      attributes:href
+     
+      <a href="website">
+
+<hl>: header tag, makes the text large and puts it on a seperate line. Good for making titles or headings
+      can vary in sizes- h1 being the biggest    h6 being the smallest
+      
+      attributes: none
+	 
+	    <h3>heading</h3>	  
+
+<img>:puts a picture on your website
+
+      attributes:src
+
+      <img src="image.jpg">
+
+<li>: makes a list of things
+      
+      attributes:none
+      
+      <li>list</li>
+
+<ol>: ordered list- lists in order like 1, 2, 3,,,,
+      
+      attributes:none
+      
+      <ol>list</ol>
+
+<p>:  puts words in paragraph form
+      
+      attributes:none
+     
+      <p>paragraph</p>
+
+      
+<ul>: unordered list- lists in bullet points, not in order
+ 
+      attributes:none
+      
+      <ul>list</ul>
+
+
+
+      

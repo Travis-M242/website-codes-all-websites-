@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<head>
+	<title>Tables</title>
+	<style>
+	
+		body {
+			background-color:      #459DA1;	
+			background-image:      url('sup.jpg');
+			background-repeat:     no-repeat;
+			background-size:       cover;
+			background-attachment: fixed;
+			background-position:   center;		
+		}
+		
+		div {
+			background-color: white;
+			border:			  1px solid black;
+			box-shadow:		  -20px 20px 40px black;
+			padding: 		  20px;
+			position:         absolute;
+			right:            40px;
+			top:              40px;
+			width:            400px;	
+		}
+		table, th, td {
+		   border-right: 1px solid #DDDDDD;
+		   text-align: center;
+		   }
+		table    {
+		     border-collapse: collapse;
+			 width:   400px;
+			 }
+		tr:nth-child(even)  {
+		     background-color: #DDD;
+			 }
+		tr:nth-child(odd)    {
+		      background-color:#EEE;
+			  }
+		td:hover {
+		      background-color: blue;
+			  color:           white;
+			  }
+		th, td  {
+		       padding: 10px;
+			   }
+		th   {
+		      background-color: black;
+			  color:        white;
+			  }
+		  
+		
+		
+	</style>
+	
+</head>
+
+<body> 
+
+	<div>
+	   <table>
+	    <tr>
+		     <th>Season</th> <th>Team </th>	<th>GP</th>     <th>W</th>	<th>L</th> 	<th>Pts</th> 	<th>Result</th>
+		</tr>
+		<tr>
+		     <td>60-61</td> 	<td>TOR</td> 	<td>70</td> 	<td>39</td> 	<td>22</td> 	<td>90</td> 	<td>lost semi finals to Detroit</td>
+		</tr>
+		<tr>
+		     <td>61-62</td> 	<td>TOR</td> 	<td>70</td> 	<td>37</td> 	<td>23</td> <td>85</td> 	<td>Won Stanley Cup finals</td>
+		</tr>
+		<tr>
+		     <td>62-63</td> <td>TOR</td> 	<td>70</td> 	<td>35</td> 	<td>25</td> 	<td>82</td> <td>Won Stanley Cup finals</td>
+		</tr>
+		<tr>
+		     <td>63-64</td> 	<td>TOR</td> 	<td>70</td> 	<td>33</td> 	<td>26</td> 	<td>78</td> 	<td>Won Stanely Cup finals</td>
+		</tr>
+		<tr>
+		     <td>64-65</td> 	<td>TOR</td> 	<td>70</td> 	<td>25</td> 	<td>25</td> 	<td>74</td> 	<td>Lost semi finals to Montreal</td>
+		</tr>
+		<tr>
+		      <td>65-66</td>	<td>TOR</td> 	<td>70</td> 	<td>34</td> 	<td>27</td> 	<td>79</td> 	<td>Lost semi finals to Montreal</td> 
+        </tr>
+      </table>		
+	</div>
+
+
+</body>
+
+</html>

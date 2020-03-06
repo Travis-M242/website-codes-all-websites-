@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+<style>
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Oxanium', cursive;
+	font-weight: 800;
+	background-image: url('pic.jpg');
+	background-image:cover;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #4934eb;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: black;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+header img  {
+       height:61px;
+	   }
+.vid    {
+         margin-top:20px;
+		 margin-left:10px;
+		 height:475px;
+		 width:575px;
+		 border: 10px #4934eb;
+	     background-color:#4934eb;
+		 border-radius: 20px;
+		 padding:10px;
+		 }
+.vid2    {
+         margin-top:-495px;
+		 height:475px;
+		 width:575px;
+		 border: 10px #4934eb;
+	     background-color:#4934eb;
+		 border-radius: 20px;
+		 padding:10px;
+		 float:right;
+		 margin-right:5px;
+		 }
+.vid3    {
+         margin-left:400px;
+		 height:475px;
+		 width:575px;
+		 border: 10px #4934eb;
+	     background-color:#4934eb;
+		 border-radius: 20px;
+		 padding:10px;
+		 float:left;
+		 margin-top:10px;
+		 }
+p1       {
+         font-size:15pt;
+		 }
+</style>
+</head>
+
+
+<body>
+<header>
+    <div class="container">
+      <h1 class="logo"></h1>
+       <image src="logo.png">
+      <nav>
+        <ul>
+          <li><a href="overview.html">Overview</a></li>
+          <li><a class= "current" href="gameplay.html">Gamplay</a></li>
+          <li><a href="pc.html">Personal Connections</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="vid">
+  <h1>Ending of a ranked game</h1>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/oxLJ43nx_hA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="vid2">
+<h1>Gameplay of creative mode and regular games</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1rKrXnsMFaM?start=16" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="vid3">
+<p1>The current meta is box fighting, this means your opponent will stay in a box and make edits to try and get free shots off on you. There are many different tricks for box fighting. For example, the most common is a right hand peak, most players call it the Peanut butter.</p1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/knbjEpDXtd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  </div>
+  </body>
+  </html>

@@ -1,8 +1,32 @@
 <a>:  makes a link for a website
      
-      attributes:href
+      attributes: href
      
       <a href="website">
+      
+<body>: contains contents
+
+      attributes: none
+      
+      <body>content</body>
+   
+<!DOCTYPE>: selects the current version of html
+
+      attributes: none
+      
+      <!DOCTYPE>
+      
+<head>: containing things for your web browser to think about
+
+      attributes: none
+      
+      <head>content</head>
+      
+<html> marks the beginning and end of your html code
+
+      attributes: none
+      
+      <html>code</html>
 
 <hl>: header tag, makes the text large and puts it on a seperate line. Good for making titles or headings
       can vary in sizes- h1 being the biggest    h6 being the smallest
@@ -19,29 +43,26 @@
 
 <li>: makes a list of things
       
-      attributes:none
+      attributes: none
       
       <li>list</li>
 
 <ol>: ordered list- lists in order like 1, 2, 3,,,,
       
-      attributes:none
+      attributes: none
       
       <ol>list</ol>
 
 <p>:  puts words in paragraph form
       
-      attributes:none
+      attributes: none
      
       <p>paragraph</p>
 
       
 <ul>: unordered list- lists in bullet points, not in order
  
-      attributes:none
+      attributes: none
       
       <ul>list</ul>
-
-
-
       

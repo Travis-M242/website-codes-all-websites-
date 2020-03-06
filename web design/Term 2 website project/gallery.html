@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+<style>
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Oxanium', cursive;
+	font-weight: 800;
+	background-image: url('pic1.jpg');
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #4934eb;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: black;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+header img  {
+       height:61px;
+	   }
+	   <title>Tables</title>
+	<style>
+		
+		div {
+			background-color: white;
+			border:			  1px solid black;
+			box-shadow:		  -20px 20px 40px black;
+			padding: 		  20px;
+			position:         absolute;
+			right:            40px;
+			top:              50px;
+			width:            500px;	
+		}
+		table, th, td {
+		   border-right: 1px solid #DDDDDD;
+		   text-align: center;
+		   }
+		table    {
+		     border-collapse: collapse;
+			 width:   400px;
+			 }
+		tr:nth-child(even)  {
+		     background-color: #DDD;
+			 }
+		tr:nth-child(odd)    {
+		      background-color:#EEE;
+			  }
+		td:hover {
+		      background-color: blue;
+			  color:           white;
+			  }
+		th, td  {
+		       padding: 10px;
+			   }
+		th   {
+		      background-color: black;
+			  color:        white;
+			  }
+	.vid    {
+	          margin-top:-400px;
+		      height:475px;
+		      width:575px;
+		      border: 10px #4934eb;
+	          background-color:#4934eb;
+		      border-radius: 20px;
+		      padding:10px;
+		      float:right;
+		      margin-right:5px;
+		      }
+</style>
+</head>
+
+
+<body>
+<header>
+    <div class="container">
+      <h1 class="logo"></h1>
+       <image src="logo.png">
+      <nav>
+        <ul>
+          <li><a href="overview.html">Overview</a></li>
+          <li><a href="gameplay.html">Gamplay</a></li>
+          <li><a href="pc.html">Personal Connections</a></li>
+          <li><a class= "current" href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+ 
+
+  </div>
+  <br>
+ 
+  
+  <div>
+	   <table>
+	    <tr>
+		     <th>Player</th> <th>Team </th>	<th>GP</th>     <th>W</th>	<th>KD</th> 	<th>Kills</th> 	<th>Region</th>
+		</tr>
+		<tr>
+		     <td>Sen Bugha</td> 	<td>Sentinals</td> 	<td>10,546</td> 	<td>3025</td> 	<td>5.5</td> 	<td>31,943</td> 	<td>NA-East</td>
+		</tr>
+		<tr>
+		     <td>Tfue</td> 	<td>None</td> 	<td>11,590</td> 	<td>3569</td> 	<td>4.9</td> <td>29,029</td> 	<td>NA-East</td>
+		</tr>
+		<tr>
+		     <td>Liquid 72hrs</td> <td>Liquid</td> 	<td>9412</td> 	<td>3126</td> 	<td>5.1</td> 	<td>30,126</td> <td>NA-East</td>
+		</tr>
+		<tr>
+		     <td>NRG EpikWhale</td> 	<td>NRG</td> 	<td>10,070</td> 	<td>3429</td> 	<td>5.3</td> 	<td>31,295</td> 	<td>NA-West</td>
+		</tr>
+		<tr>
+		     <td>Faze Mongraal</td> 	<td>Faze clan</td> 	<td>11,390</td> 	<td>3268</td> 	<td>5.9</td> 	<td>34,507</td> 	<td>Europe</td>
+		</tr>
+		<tr>
+		      <td>100T Elevate</td>	<td>100 Thieves</td> 	<td>9870</td> 	<td>3176</td> 	<td>5.2</td> 	<td>32,097</td> 	<td>NA-East</td> 
+        </tr>
+      </table>		
+	</div>
+	<div class="vid">
+	<h1>Offcial trailer</h1>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/JgPXMxW7zJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+  </body>
+  </html>
